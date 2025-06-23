@@ -7,6 +7,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.eloinavarro.coroutines.ui.screens.CoroutinesScreen
+import com.eloinavarro.coroutines.ui.screens.DispatchersScreen
 import com.eloinavarro.coroutines.ui.screens.StartScreen
 import kotlinx.serialization.Serializable
 
@@ -30,6 +31,12 @@ private fun NavGraphBuilder.start(navController: NavController) {
 private fun NavGraphBuilder.coroutines(navController: NavController) {
     composable<Destination.Coroutines> {
         CoroutinesScreen(
+            onUpClick = { navController.popBackStack() },
+            onDetailClick = { destination -> navController.navigate(destination) }
+        )
+    }
+    composable<Destination.Dispatchers> {
+        DispatchersScreen(
             onUpClick = { navController.popBackStack() }
         )
     }
@@ -41,4 +48,7 @@ sealed interface Destination {
 
     @Serializable
     object Coroutines : Destination
+
+    @Serializable
+    object Dispatchers : Destination
 }

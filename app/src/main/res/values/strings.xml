@@ -3,4 +3,9 @@
   <string name="description_coroutines">Coroutines can be thought of as light-weight threads, but there is a number of important differences that make their real-life usage very different from threads.</string>
   <string name="coroutine_basic_description">In this example, launch is a coroutine builder. It launches a new coroutine concurrently with the rest of the code, which continues to work independently. runBlocking is also a coroutine builder that bridges the non-coroutine code and the code with coroutines inside of runBlocking. This is highlighted by the IDE on the right curly brace displaying a CoroutineScope. Without the runBlocking, this code won\'t compile complaining about a wrong scope.</string>
   <string name="coroutine_suspend_description">In this example, the data is fetched using a suspend function. Those functions can only be called inside a coroutine scope. Even directly or inside another suspend function.</string>
+  <string name="coroutine_dispatchers_description">In this example, the coroutine is launched using a specific dispatcher. Dispatchers control the thread where the coroutine runs. For instance, IO is used for disk or network operations, Default for CPU-heavy work, and Main for UI updates. Using the right dispatcher avoids blocking the wrong thread and improves performance.</string>
+
+
+  <string name="coroutine_default_dispatcher">This dispatcher is used when we do the work. Heavy operations on the business logic that need to be done on the device. Sorting, Filtering, transformations of any kind. The heavy stuff.</string>
+  <string name="coroutine_io_dispatcher">This dispatcher is used when the work is done on any input-output operations. Typically database, api calls or anything file system related.</string>
 </resources>
