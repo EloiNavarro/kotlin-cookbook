@@ -1,4 +1,4 @@
-package com.eloinavarro.coroutines.coroutines
+package com.eloinavarro.playground.coroutines
 
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

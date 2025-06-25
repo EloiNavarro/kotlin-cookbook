@@ -1,4 +1,4 @@
-package com.eloinavarro.coroutines.ui.common
+package com.eloinavarro.playground.ui.common
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavController
@@ -6,9 +6,9 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.eloinavarro.coroutines.ui.screens.CoroutinesScreen
-import com.eloinavarro.coroutines.ui.screens.DispatchersScreen
-import com.eloinavarro.coroutines.ui.screens.StartScreen
+import com.eloinavarro.playground.ui.screens.CoroutinesScreen
+import com.eloinavarro.playground.ui.screens.DispatchersScreen
+import com.eloinavarro.playground.ui.screens.StartScreen
 import kotlinx.serialization.Serializable
 
 @Composable

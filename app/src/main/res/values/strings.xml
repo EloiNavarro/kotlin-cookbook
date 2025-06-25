@@ -1,5 +1,5 @@
 <resources>
-  <string name="app_name">Coroutine playground</string>
+  <string name="app_name">Kotlin playground</string>
   <string name="description_coroutines">Coroutines can be thought of as light-weight threads, but there is a number of important differences that make their real-life usage very different from threads.</string>
   <string name="coroutine_basic_description">In this example, launch is a coroutine builder. It launches a new coroutine concurrently with the rest of the code, which continues to work independently. runBlocking is also a coroutine builder that bridges the non-coroutine code and the code with coroutines inside of runBlocking. This is highlighted by the IDE on the right curly brace displaying a CoroutineScope. Without the runBlocking, this code won\'t compile complaining about a wrong scope.</string>
   <string name="coroutine_suspend_description">In this example, the data is fetched using a suspend function. Those functions can only be called inside a coroutine scope. Even directly or inside another suspend function.</string>

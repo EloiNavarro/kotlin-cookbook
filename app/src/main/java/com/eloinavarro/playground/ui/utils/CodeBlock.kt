@@ -1,4 +1,4 @@
-package com.eloinavarro.coroutines.ui.utils
+package com.eloinavarro.playground.ui.utils
 
 import android.content.Context
 import androidx.compose.foundation.horizontalScroll

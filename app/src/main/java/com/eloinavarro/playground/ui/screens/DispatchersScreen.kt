@@ -1,4 +1,4 @@
-package com.eloinavarro.coroutines.ui.screens
+package com.eloinavarro.playground.ui.screens
 
 import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -13,11 +13,11 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import com.eloinavarro.coroutines.R
-import com.eloinavarro.coroutines.ui.common.ArrowBackIcon
-import com.eloinavarro.coroutines.ui.common.Screen
-import com.eloinavarro.coroutines.ui.common.TopicCard
-import com.eloinavarro.coroutines.ui.common.TopicList
+import com.eloinavarro.playground.R
+import com.eloinavarro.playground.ui.common.ArrowBackIcon
+import com.eloinavarro.playground.ui.common.Screen
+import com.eloinavarro.playground.ui.common.TopicCard
+import com.eloinavarro.playground.ui.common.TopicList
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

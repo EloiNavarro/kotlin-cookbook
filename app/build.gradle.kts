@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.eloinavarro.coroutines"
+    namespace = "com.eloinavarro.playground"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.eloinavarro.coroutines"
+        applicationId = "com.eloinavarro.playground"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

@@ -10,16 +10,14 @@
     android:label="@string/app_name"
     android:roundIcon="@mipmap/ic_launcher_round"
     android:supportsRtl="true"
-    android:theme="@style/Theme.CoroutinePlayground"
+    android:theme="@style/Theme.Playground"
     tools:targetApi="31">
     <activity
       android:exported="true"
-      android:label="@string/app_name"
-      android:name=".MainActivity"
-      android:theme="@style/Theme.CoroutinePlayground">
+      android:name="com.eloinavarro.playground.MainActivity"
+      android:theme="@style/Theme.Playground">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
-
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>

@@ -1,14 +1,14 @@
-package com.eloinavarro.coroutines.ui.screens
+package com.eloinavarro.playground.ui.screens
 
 import androidx.annotation.StringRes
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
-import com.eloinavarro.coroutines.R
-import com.eloinavarro.coroutines.ui.common.Destination
-import com.eloinavarro.coroutines.ui.common.HomeIcon
-import com.eloinavarro.coroutines.ui.common.Screen
-import com.eloinavarro.coroutines.ui.common.TopicCard
-import com.eloinavarro.coroutines.ui.common.TopicList
+import com.eloinavarro.playground.R
+import com.eloinavarro.playground.ui.common.Destination
+import com.eloinavarro.playground.ui.common.HomeIcon
+import com.eloinavarro.playground.ui.common.Screen
+import com.eloinavarro.playground.ui.common.TopicCard
+import com.eloinavarro.playground.ui.common.TopicList
 
 @Composable
 fun StartScreen(

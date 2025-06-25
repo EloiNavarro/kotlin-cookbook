@@ -1,4 +1,4 @@
-package com.eloinavarro.coroutines
+package com.eloinavarro.playground
 
 import org.junit.Test
 

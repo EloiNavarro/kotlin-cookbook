@@ -1,4 +1,4 @@
-package com.eloinavarro.coroutines.ui.theme
+package com.eloinavarro.playground.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

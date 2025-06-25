@@ -1,4 +1,4 @@
-package com.eloinavarro.coroutines.ui.common
+package com.eloinavarro.playground.ui.common
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth

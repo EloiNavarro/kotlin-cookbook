@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Coroutine playground"
+rootProject.name = "Kotlin cookbook"
 include(":app")

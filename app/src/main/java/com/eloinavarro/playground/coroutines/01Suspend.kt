@@ -1,7 +1,7 @@
-package com.eloinavarro.coroutines.coroutines
+package com.eloinavarro.playground.coroutines
 
-import com.eloinavarro.coroutines.DemoRepository
-import com.eloinavarro.coroutines.User
+import com.eloinavarro.playground.DemoRepository
+import com.eloinavarro.playground.User
 import kotlinx.coroutines.runBlocking
 import kotlin.random.Random
 
